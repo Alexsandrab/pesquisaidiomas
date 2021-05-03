@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo1.css">
+    <title>Idiomas</title>
+</head>
+
+<body>
+    <h1>Verifique suas respostas</h1>
+    <h4 id="mostrarNome"></h4>
+    <h4 id="mostrarResumo"></h4>
+    <h4 id="mostrarRadio"></h4>
+    <h4 id="mostrarSelect"></h4>
+    <h4 id="mostrarNovo"></h4>
+
+    <br><br>
+    <a href="Site.html"><input type="button" id="voltarInicio" value="Responda o Questionário Novamente!">
+
+</body>
+<script>
+    function resultado() {
+        var nome = localStorage.getItem("nomeCompleto");
+        mostrarNome.textContent = "Nome: " + nome;
+        var resumo = localStorage.getItem("resumo")
+        mostrarResumo.textContent = "Resumo: " + resumo;
+        var radio = localStorage.getItem("lista");
+        mostrarRadio.textContent = "Motivo para aprender outro Idioma: " + radio;
+        var select = localStorage.getItem("id");
+        mostrarSelect.textContent = "Idioma escolhido: " + select;
+        var novoRadio = localStorage.getItem("lista2");
+        mostrarNovo.textContent = "Horário Disponível: " + novoRadio;
+
+    }
+    resultado();
+
+    function limparDados() {
+        localStorage.clear()
+    }
+    var voltarInicio = document.getElementById("voltarInicio");
+    voltarInicio.addEventListener("click", limparDados);
+
+</script>
+
+</html>

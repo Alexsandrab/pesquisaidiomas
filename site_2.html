@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo1.css">
+    <title>Idiomas</title>
+</head>
+
+<body>
+    <h1>Pesquisa sobre Idiomas</h1>
+    <h3> Por qual motivo você deseja aprender outro Idioma?</h3> <br> <br>
+    <div id="lista">
+        <input type="radio" id="resp1" name="resp" value="resposta" onclick="mostrarOutroRadio()">
+        <label for="resp1">Para minha área é um diferencial.</label> <br>
+        <input type="radio" id="resp2" name="resp" value="resposta" onclick="mostrarOutroRadio()">
+        <label for="resp2">Gosto de aprender coisas novas.</label> <br>
+        <input type="radio" id="resp3" name="resp" value="resposta" onclick="mostrarOutroRadio()">
+        <label for="resp3">Quero viajar para o exterior.</label>
+        <br> <br>
+    </div>
+    <div id="lista2" class="hidden">
+        <h3>Quanto tempo você tem disponível para estudar a língua?</h3>
+        <input type="radio" id="resposta1" name="horario" value="resposta" onclick="lista2()">
+        <label for="selecionarH">Duas horas</label> <br>
+        <input type="radio" id="resposta2" name="horario" value="resposta" onclick="lista2()">
+        <label for="selecionarH">Entre 3/4 Horas</label> <br>
+        <input type="radio" id="resposta3" name="horario" value="resposta" onclick="lista2()">
+        <label for="selecionarH">Horário Integral</label> <br> <br>
+    </div>
+    <br> <br>
+    <a href="Site.html"><input type="button" value="Voltar" id="voltar">
+        <a href="site_3.html"><input type="button" value="Próximo" id="pag3">
+
+</body>
+<script src="pag2.js"></script>
+
+</html>

@@ -1,0 +1,72 @@
+.hidden{
+    display: none;
+}
+body{
+    text-align:start;
+    margin:30px;
+    border: initial;
+    background-color: plum;
+}
+#nomeCompleto{
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    height: 0;
+    
+}
+.res{
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    margin-left: 200px;
+
+
+}
+input{
+    border-radius: 30%;
+    width: 7cm;
+    height: 1cm;
+    border-color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-content: center;
+    text-align: center;
+    margin-left: 200px;
+    
+}
+h1,h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    size: 40px;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left:200px;
+}
+div{
+   text-align: justify;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.idiomas{
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: auto;  
+    padding: 20px;
+    text-align: justify;
+    width: 200px;
+    left: 15cm;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.btn{
+    left: 2cm;
+    position: relative;
+}
